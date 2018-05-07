@@ -9,3 +9,14 @@
 .nav-item {
   margin-top: 1rem;
 }
+.headline{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  background-color: palevioletred;
+}
+.nav{
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+}

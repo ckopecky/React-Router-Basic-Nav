@@ -3,9 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';//instantiation of Router
 
 ReactDOM.render(
-<BrowserRouter>
-    <App />
-</BrowserRouter>, document.getElementById('root'));
+    <Router>
+        <App />
+    </Router>, 
+    document.getElementById('root')
+);
+
+//purpose is to import App, any dependencies
+//also to render the app on the ReactDOM
